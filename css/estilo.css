@@ -105,30 +105,18 @@ body {
     justify-items: center;
     align-items: center;
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: 100px;
     height: 100px;
-    grid-template-areas: "INICIO COCINA DORMITORIO LIVING CONTACTO"; }
+    grid-template-areas: "INICIO AMBIENTES CONTACTO"; }
   #INICIO:hover {
     grid-area: INICIO;
     text-align: center;
     color: #eb9240;
     font-size: 20px;
     font-weight: bolder; }
-  #COCINA:hover {
-    grid-area: COCINA;
-    text-align: center;
-    color: #eb9240;
-    font-size: 20px;
-    font-weight: bolder; }
-  #DORMITORIO:hover {
-    grid-area: DORMITORIO;
-    text-align: center;
-    color: #eb9240;
-    font-size: 20px;
-    font-weight: bolder; }
-  #LIVING:hover {
-    grid-area: LIVING;
+  #AMBIENTES:hover {
+    grid-area: AMBIENTES;
     text-align: center;
     color: #eb9240;
     font-size: 20px;
@@ -149,19 +137,139 @@ body {
     font-weight: bolder; }
   #QueHacemos {
     background-image: url("imagenes/fondococina.jpg");
-    background-blend-mode: lighten;
     background-size: cover;
     color: #3d3c3c;
     font-weight: bolder;
     justify-items: center;
     align-content: center;
     text-align: center;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-items: center;
     height: 400px;
-    grid-template-areas: "QueHacemos";
-    font-size: 30px; }
+    grid-template-areas: "QueHacemos"; }
+  #Cocina {
+    background-image: url("imagenes/fondococina.jpg");
+    background-size: cover;
+    color: #3d3c3c;
+    font-weight: bolder;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-items: center;
+    height: 400px;
+    grid-template-areas: "OLLAS VAJILLA CUBIERTOS LIMPIEZA"; }
+  #Ollas {
+    grid-area: OLLAS;
+    height: 150px;
+    width: 150px; }
+  #Vajilla {
+    grid-area: VAJILLA;
+    height: 150px;
+    width: 150px; }
+  #Cubiertos {
+    grid-area: CUBIERTOS;
+    height: 150px;
+    width: 150px; }
+  #Limpieza {
+    grid-area: LIMPIEZA;
+    height: 150px;
+    width: 150px; }
+  #Dormitorio {
+    background-image: url("imagenes/fondococina.jpg");
+    background-size: cover;
+    color: #3d3c3c;
+    font-weight: bolder;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-items: center;
+    height: 400px;
+    grid-template-areas: "CAMA MESALUZ ARMARIO ESCRITORIO"; }
+  #Cama {
+    grid-area: CAMA;
+    height: 150px;
+    width: 150px; }
+  #MesaLuz {
+    grid-area: MESALUZ;
+    height: 150px;
+    width: 150px; }
+  #Armario {
+    grid-area: ARMARIO;
+    height: 150px;
+    width: 150px; }
+  #Escritorio {
+    grid-area: ESCRITORIO;
+    height: 150px;
+    width: 150px; }
+  #Living {
+    background-image: url("imagenes/fondococina.jpg");
+    background-size: cover;
+    color: black;
+    font-weight: bolder;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-items: center;
+    height: 400px;
+    grid-template-areas: "MESA SILLON RACK BIBLIOTECA"; }
+  #Mesa {
+    grid-area: MESA;
+    font-weight: 900;
+    height: 150px;
+    width: 150px; }
+  #Sillon {
+    grid-area: SILLON;
+    height: 150px;
+    width: 150px; }
+  #Rack {
+    grid-area: Rack;
+    height: 150px;
+    width: 150px; }
+  #Biblioteca {
+    grid-area: Biblioteca;
+    height: 150px;
+    width: 150px; }
+  #Dormitorio {
+    background-image: url("imagenes/fondococina.jpg");
+    background-size: cover;
+    color: black;
+    font-weight: bolder;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-items: center;
+    height: 400px;
+    grid-template-areas: "CAMA MESALUZ ARMARIO ESCRITORIO"; }
+  #Cama {
+    grid-area: Cama;
+    height: 150px;
+    width: 150px; }
+  #MesaLuz {
+    grid-area: MesaLuz;
+    height: 150px;
+    width: 150px; }
+  #Armario {
+    grid-area: Armario;
+    height: 150px;
+    width: 150px; }
+  #Escritorio {
+    grid-area: Escritorio;
+    height: 150px;
+    width: 150px; }
   #footer {
     background-color: #B4E2C4;
     display: flex;
