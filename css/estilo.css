@@ -23,7 +23,11 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 50px 50px 50px 50px 50px;
     height: 250px;
-    grid-template-areas: "INICIO"  "COCINA"  "DORMITORIO" "LIVING" "CONTACTO"; }
+    grid-template-areas: "INICIO" 
+ "COCINA" 
+ "DORMITORIO"
+ "LIVING"
+ "CONTACTO"; }
   #INICIO:hover {
     grid-area: INICIO;
     text-align: center;
