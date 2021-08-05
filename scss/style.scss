@@ -20,12 +20,10 @@
             align-items: center;
             display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows: 50px 50px 50px 50px 50px;
-            height: 250px;
+            grid-template-rows: 50px 50px 50px;
+            height: 150px;
             grid-template-areas: "INICIO" 
-            "COCINA" 
-            "DORMITORIO"
-            "LIVING"
+            "AMBIENTES" 
             "CONTACTO"
         }
         
@@ -39,41 +37,7 @@
          font-weight: bolder;
          
         }
-    
-        #COCINA:hover
-        
-        {
-         grid-area: COCINA;
-         text-align: center;
-         color: rgb(235, 146, 64);
-         font-size: 20px;
-         font-weight: bolder;
-         
-        }
-    
-        #DORMITORIO:hover
-        
-        {
-         grid-area: DORMITORIO;
-         text-align: center;
-         color: rgb(235, 146, 64);
-         font-size: 20px;
-         font-weight: bolder;
-         
-        }
-    
-        #LIVING:hover
-        
-        {
-         grid-area: LIVING;
-         text-align: center;
-         color: rgb(235, 146, 64);
-         font-size: 20px;
-         font-weight: bolder;
-         
-        }
-    
-    
+   
         .btn-secondary:hover
         
         {
@@ -111,11 +75,146 @@
             text-align: center;
             display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows: 50px;
+            grid-template-rows: 50px 50px;
             height: 300px;
             grid-template-areas: "QueHacemos";
             font-size: 16px;
         }
+ 
+        #Cocina
+        
+        { background-image: url("imagenes/fondococina.jpg");
+            background-size: cover;
+            color: rgb(61, 60, 60);
+            font-weight: bolder;
+            justify-items: center;
+            align-content: center;
+            text-align: center;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 200px 200px 200px 200px;
+            height: 1000px;
+            grid-template-areas: "OLLAS"
+            "VAJILLA"
+            "CUBIERTOS"
+            "LIMPIEZA";
+            font-size: 16px;
+        }
+
+
+        #Ollas
+
+        {   grid-area: OLLAS;
+
+        }
+        
+        #Vajilla
+
+        {   grid-area: VAJILLA;
+
+        }
+
+        #Cubiertos
+
+        {   grid-area: CUBIERTOS;
+
+        }
+
+        #Limpieza
+
+        {   grid-area: LIMPIEZA;
+
+        }
+
+        #Dormitorio
+        
+        { background-image: url("imagenes/fondococina.jpg");
+            background-size: cover;
+            color: rgb(61, 60, 60);
+            font-weight: bolder;
+            justify-items: center;
+            align-content: center;
+            text-align: center;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 200px 200px 200px 200px;
+            height: 1000px;
+            grid-template-areas: "CAMA"
+            "MESALUZ"
+            "ARMARIO"
+            "ESCRITORIO";
+            font-size: 16px;
+        }
+
+
+        #Cama
+
+        {   grid-area: CAMA;
+        
+        }
+
+        #MesaLuz
+
+        {   grid-area: MESALUZ;
+          
+        }
+ 
+        #Armario
+
+        {   grid-area: ARMARIO;
+          
+        }
+
+        #Escritorio
+
+        {   grid-area: ESCRITORIO;
+           
+        }
+
+        #Living
+        
+        {  background-image: url("imagenes/fondococina.jpg");
+            background-size: cover;
+            color: rgb(61, 60, 60);
+            font-weight: bolder;
+            justify-items: center;
+            align-content: center;
+            text-align: center;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 200px 200px 200px 200px;
+            height: 1000px;
+            grid-template-areas: "MESA"
+            "SILLON"
+            "RACK"
+            "BIBLIOTECA";
+            font-size: 16px;
+        }
+
+
+        #Mesa
+
+        {   grid-area: MESA;
+           
+        }
+
+        #Sillon
+
+        {   grid-area: SILLON;
+            
+        }
+
+        #Rack
+
+        {   grid-area: RACK;
+           
+        }
+
+        #Biblioteca
+
+        {   grid-area: BIBLIOTECA;
+        
+        }        
         
         #footer
         {
@@ -237,7 +336,7 @@
             justify-content: space-evenly;
             align-content: space-between;
             align-items: center;
-            height: 400px;
+            height: 600px;
             grid-template-areas: "OLLAS VAJILLA CUBIERTOS LIMPIEZA" 
         }
 
@@ -245,28 +344,28 @@
         #Ollas
 
         {   grid-area: OLLAS;
-            height: 150px;
+            height: 400px;
             width: 150px;
         }
         
         #Vajilla
 
         {   grid-area: VAJILLA;
-            height: 150px;
+            height: 400px;
             width: 150px;
         }
 
         #Cubiertos
 
         {   grid-area: CUBIERTOS;
-            height: 150px;
+            height: 400px;
             width: 150px;
         }
 
         #Limpieza
 
         {   grid-area: LIMPIEZA;
-            height: 150px;
+            height: 400px;
             width: 150px;
         }
 
@@ -440,7 +539,20 @@
             height: 50px;
             width: 50px;
         }
-    
+
+        #Contacto
+        
+        { background-image: url("imagenes/fondococina.jpg");
+            background-size: cover;
+            color: black;
+            font-weight: bolder;
+            justify-items: center;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            align-content: center;
+            height: 400px;
+        }
     }
     
     
